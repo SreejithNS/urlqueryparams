@@ -1,5 +1,5 @@
 {
-  "name": "urlqueryparams",
+  "name": "url-query-params",
   "version": "1.0.0",
   "description": "An extended version of URLSearchParams with support for Objects and Arrays.",
   "main": "dist/index.js",

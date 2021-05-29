@@ -19,16 +19,16 @@ An extended version of [URLSearchParams](https://developer.mozilla.org/en-US/doc
 
 ### Install
 
-    npm -i -s urlqueryparams
+    npm -i -s url-query-params
     
 	(or)
 	
-	yarn add urlqueryparams
+	yarn add url-query-params
 
 ### Usage
 
     
-    import { URLQueryParams } from "urlqueryparams";
+    import { URLQueryParams } from "url-query-params";
     
     const queryParams = new URLQueryParams(
         {
