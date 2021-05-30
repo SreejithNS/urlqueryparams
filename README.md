@@ -1,10 +1,10 @@
-
 # URLQueryParams ![ts](https://flat.badgen.net/badge/-/TypeScript?icon=typescript&label&labelColor=blue&color=555555)
 
 [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest) [![GitHub license](https://img.shields.io/github/license/SreejithNS/urlqueryparams.svg)](https://github.com/SreejithNS/urlqueryparams/blob/main/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/SreejithNS/urlqueryparams.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/SreejithNS/urlqueryparams/stargazers/)
 
 
 An extended version of [URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams) with support for Objects and Arrays.
+
 
 **URLQueryParams** implements URLSearchParams interface, so that it can be replaced with URLSearchParams for query string manipulation.
 
@@ -24,6 +24,7 @@ An extended version of [URLSearchParams](https://developer.mozilla.org/en-US/doc
 	(or)
 	
 	yarn add object-in-queryparams
+
 
 ### Usage
 
@@ -55,21 +56,25 @@ An extended version of [URLSearchParams](https://developer.mozilla.org/en-US/doc
 
 **URLQueryParams** implements [URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams) interface, where the constructor accepts a few more signatures than URLSearchParams:
 
-#### ✅ Unsupported Signatures
+#### ✅ Supported Signatures
 
  - `{ [param]: string | number }`
  - `{ [param]: string[] | number[] }`
  - `{  [param]: { [param]: string | number } }`
  - And all other signatures that are supported by [URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)
 
+
 #### ❎ Unsupported Signatures
  
+
  - Arrays within Nested Objects are not supported.
 	 - `{  [param]: { [param]: string[] | number[] } }`  
  - Double nested Objects are not supported.
 	 -  `{  [param]: { [param]: {...} } }` 
 
+
 ## 🦄 Contribution & Issues
+
 
 If this package helped you and saved your time **thank me by giving a star ⭐** to my repo. 
 Post your issues [here](https://github.com/SreejithNS/urlqueryparams/issues)
